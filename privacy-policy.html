@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Privacy Policy - Follow Through</title>
     <style>
-        body { font-family: "Times New Roman", Times, serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #000; }
-        h1 { text-align: center; text-decoration: underline; }
-        h2 { font-size: 1.1em; margin-top: 30px; }
+        body {
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #000;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-size: 1.1em;
+            margin-top: 30px;
+        }
     </style>
 </head>
+
 <body>
     <h1>Privacy Policy</h1>
-    <p><strong>Last Updated:</strong> February 13, 2026</p>
-    <p><strong>SunkenPeak</strong> respects your privacy. This policy explains how <strong>Follow Through</strong> handles your information.</p>
+    <p><strong>Last Updated:</strong> February 28, 2026</p>
+    <p><strong>SunkenPeak</strong> respects your privacy. This policy explains how <strong>Follow Through</strong>
+        handles your information.</p>
 
-    <h2>1. Data Collection</h2>
-    <p>We do <strong>not</strong> collect any personal information, such as your name, email address, or contact details. We do not use any third-party analytics or tracking SDKs.</p>
+    <h2>1. Data Collection & Authentication</h2>
+    <p>We prioritize your anonymity. We use <strong>Sign in with Apple</strong> for authentication. We do
+        <strong>not</strong> collect or store your name, your personal email address, or your contact details. We only
+        store a unique, anonymized string of characters (User ID) provided by Apple to identify your account.
+    </p>
 
-    <h2>2. On-Device Processing</h2>
-    <p>All video analysis and rally detection are performed <strong>locally</strong> on your device's hardware. Your videos never leave your device and are never transmitted to SunkenPeak or any third party.</p>
+    <h2>2. On-Device Video Processing</h2>
+    <p>All video analysis and rally detection are performed <strong>locally</strong> on your device's hardware. Your
+        videos never leave your device and are <strong>never</strong> transmitted to SunkenPeak, our servers, or any
+        third party.</p>
 
-    <h2>3. iCloud & CloudKit</h2>
-    <p>The App uses Apple’s CloudKit to sync your credit balance and notes across your devices. This data is stored in your private iCloud container. SunkenPeak has no access to this data.</p>
+    <h2>3. Server-Side Data (Supabase)</h2>
+    <p>The App uses a secure backend (Supabase) to sync your account status. The only data stored on our servers
+        includes:
+    <ul>
+        <li>Your unique anonymized User ID.</li>
+        <li>Your current credit balance (for Free Tier users).</li>
+        <li>Credit usage logs and activity timestamps (for service integrity and analytics).</li>
+    </ul>
+    </p>
 
     <h2>4. Children's Privacy</h2>
-    <p>The App is safe for users of all ages as it does not collect personal data or require account creation.</p>
+    <p>The App is safe for users of all ages as it does not collect personal identity data or require the sharing of
+        contact information.</p>
 
-    <h2>5. Your Rights</h2>
-    <p>You can delete your synced data at any time through your iCloud settings. Since we do not store your data on our own servers, we cannot delete it for you.</p>
+    <h2>5. Your Rights & Data Deletion</h2>
+    <p>You may request the removal of your data at any time via the "Remove Data Request" button in the App settings.
+        Triggering this will:
+    <ul>
+        <li>Permanently delete all credit usage history and app-specific metadata from our servers.</li>
+        <li>Reset your credit balance to zero.</li>
+    </ul>
+    <strong>Note:</strong> We retain your anonymized User ID on our "exclusion list" solely to prevent the abuse of
+    introductory free credits and to maintain the integrity of our lifetime/subscription license records.
+    </p>
 
     <h2>6. Contact Us</h2>
-    <p>If you have questions about our privacy practices, please contact us at <strong>sunkenpeak@gmail.com</strong>.</p>
+    <p>If you have questions about our privacy practices, please contact us at <strong>sunkenpeak@gmail.com</strong>.
+    </p>
 </body>
+
 </html>
